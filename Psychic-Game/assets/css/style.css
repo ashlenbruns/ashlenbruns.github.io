@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+.wrapper {
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#crystal {
+    display: block;
+    margin: auto;
+}
