@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tree Hugger Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <div class="contents">
+        <h1>Tree Hugger Game!</h1>
+
+            <p>You will be given a random Target Number at the start of the game.</p>
+            <p>Hug a tree below by clikcing on it.  You will gain a specific amount of karma points for each tree you hug. </br>
+                The value of each tree hug is hidden until you click on it, and it changes with each new game.
+            </p>
+            <p>You win the game by matching your total karma points to the Target Number, but don't go over or you will lose.</p>
+
+        <div class="target">Target Number:&nbsp; <span id="targetNumber"></span></div>
+        <div class="result">
+            <div>Wins: <span id="playerWins">0</span></div>
+            <div>Losses: <span id="playerLosses">0</span></div>
+        </div>
+        <div id="treeContainer">
+            <img class="trees" id="treeOne" src="assets/images/tree-1.png" alt="tree one">
+            <img class="trees" id="treeTwo" src="assets/images/tree-2.png" alt="tree two">
+            <img class="trees" id="treeThree" src="assets/images/tree-3.png" alt="tree three">
+            <img class="trees" id="treeFour" src="assets/images/tree-4.png" alt="tree four">
+        </div>
+        <div class="karma">Total karma points:&nbsp; <span id="karmaPoints">0</span></div>
+
+        <script type="text/javascript" src="assets/java.js"></script>    
+    </div>
+
+</body>
+</html>
