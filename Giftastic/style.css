@@ -1,0 +1,32 @@
+.btn-success {
+    margin: 10px 10px 10px 10px;
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn-warning {
+    margin: 10px 10px 10px 10px;
+}
+
+#add-button {
+    margin-top: 10px;
+}
+
+p {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.gif-image {
+    float: left;
+}
+
+img {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
