@@ -1,0 +1,15 @@
+.card {
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.jumbotron {
+    background-image: url(mountain.jpg);
+    background-size: 50%;
+    color: #FF530D;
+    -webkit-text-stroke: 1px lightgrey;
+    text-shadow: 2px 4px 6px white;
+}
+
+
