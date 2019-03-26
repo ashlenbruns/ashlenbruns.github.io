@@ -1,68 +1,189 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ashlen's GitHub Page</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body>
-    <h1>Ashlen's GitHub Page</h1>
+    <title>Ashlen's Portfolio</title>
 
-    <div>
-        <p>Week 13 Node and Express Homework</p>
-        <a href="https://sheltered-reef-59671.herokuapp.com/" target="_blank">Friend Finder</a>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+    <nav class="site-header sticky-top py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-around">
+        <a class="py-2 d-none d-md-inline-block" id="about" href="#about-jumbo">About</a>
+        <a class="py-2 d-none d-md-inline-block" id="portfolio" href="#portfolio-jumbo">Portfolio</a>
+        <a class="py-2 d-none d-md-inline-block" id="contact" href="#contact-jumbo">Contact</a>
+      </div>
+    </nav>
+        
+    <!-- Homepage -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" id="main-image">
+        <div class="col-md-7 p-lg-5 mx-auto my-5">
+            <h1 class="focus-in-expand-fwd display-4 font-weight-normal" style="color: aliceblue"><br>Hi there. I'm Ashlen.</h1>
+            <p class="tracking-in-expand-fwd-bottom lead font-weight-normal" style="color: aliceblue">An aspiring full-stack web developer.</p>
+        </div>
     </div>
-    <br>
 
-    <div>
-        <p>Week 12 MySQL Homework</p>
-        <a href="https://github.com/ashlenbruns/bamazon.git" target="_blank">bamazon!</a>
+    <!-- About Me -->
+    <div class="about-wrapper">
+    <div class="jumbotron jumbotron-fluid text-center" id="about-jumbo">
+      <div class="container" id="about-container">
+        <h1>About Me</h1>
+        <hr>
+        <p>If I could, I would forever be a student.  After 11 years in various customer service positions, I have finally discovered a career path that allows me to be the “forever student” – coding!  Having graduated with a degree in Studio Art and English, I have always gravitated toward combining the technical with the creative.  Coding is the perfect balance of this – the languages are strict, but the applications are endless if you have the imagination to drive them forward.  I am currently enrolled in the University of Minnesota Full-Stack Web Development Boot Camp.  The pace is fast and there is always something new to learn, but I love the challenge and find great satisfaction in creating clean, working code.</p>
+        <br>
+        <h4>Fun Stuff</h4>
+        <p>My husband and I are avid hikers, National Park enthusiasts and we love our dogs, Winston and Clementine.</p>
+      </div>
     </div>
-    <br>
+    </div>
     
-    <div>
-        <p>Week 10 Node Homework</p>
-        <a href="https://github.com/ashlenbruns/liri-node-app.git" target="_blank">Liri</a>
-    </div>
-    <br>
+    <!-- Portfolio -->
+    <div class="portfolio-wrapper">
+      <div class="jumbotron jumbotron-fluid text-center" id="portfolio-jumbo">
+        <div class="container">
+          <h1>My Portfolio</h1>
+          <hr>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="row">
+          <div class="thumbnail col-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="hovereffect">
+              <img class="img-fluid" src="assets/images/friend.png" alt="Friend-Finder">
+              <div class="overlay">
+                <h4>Friend Finder</h4>
+                <p class="mx-auto">node | express | path | javascript | jQuery | Bootstrap</p>
+                <a class="info" href="https://sheltered-reef-59671.herokuapp.com/" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
 
-    <div>
-        <p>Week 8 Group Project</p>
-        <a href="https://ashlenbruns.github.io/Group-Project-1" target="_blank">Date Night</a>
-    </div>
-    <br>
+          <div class="thumbnail col-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="hovereffect">
+              <img class="img-fluid" src="assets/images/bamazon.png" alt="bamazon">
+              <div class="overlay">
+                <h4>bamazon!</h4>
+                <p class="mx-auto">node | mySQL | inquirer | javascript</p>
+                <a class="info" href="https://github.com/ashlenbruns/bamazon.git" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
 
-    <div>
-        <p>Week 7 Firebase Homework</p>
-        <a href="https://ashlenbruns.github.io/Train-Scheduler" target="_blank">A Train to Nowhere</a>
-    </div>
-    <br>
+          <div class="thumbnail col-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="hovereffect">
+              <img class="img-fluid" src="assets/images/liri.png" alt="liri">
+              <div class="overlay">
+                <h4>liri</h4>
+                <p class="mx-auto">node | fs | axios | javascript | API</p>
+                <a class="info" href="https://github.com/ashlenbruns/liri-node-app.git" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
 
-    <div>
-        <p>Week 6 Ajax Homework</p>
-        <a href="https://ashlenbruns.github.io/Giftastic" target="_blank">The Gif-tastic World of Sports!</a>
+        <div class="thumbnail col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="hovereffect">
+            <img class="img-fluid" src="assets/images/date.png" alt="Date Night">
+            <div class="overlay">
+              <h4>Date Night App</h4>
+              <p class="mx-auto">jQuery | Granim.js | Bootsrap | Firebase | API</p>
+              <a class="info" href="https://ashlenbruns.github.io/Group-Project-1" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="thumbnail col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="hovereffect">
+            <img class="img-fluid" src="assets/images/train.png" alt="Train Scheduler">
+            <div class="overlay">
+              <h4>Train Scheduler</h4>
+              <p class="mx-auto">Moment.js | Bootsrap | Firebase</p>
+              <a class="info" href="https://ashlenbruns.github.io/Train-Scheduler" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="hovereffect">
+            <img class="img-fluid" src="assets/images/giftastic.png" alt="Giftastic">
+            <div class="overlay">
+              <h4>Giftastic</h4>
+              <p class="mx-auto">jQuery | Bootstrap | AJAX | API</p>
+              <a class="info" href="https://ashlenbruns.github.io/Giftastic" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="hovereffect">
+            <img class="img-fluid" src="assets/images/trivia.png" alt="Churchill Trivia">
+            <div class="overlay">
+              <h4>Churchill Trivia</h4>
+              <p class="mx-auto">javascript | jQuery</p>
+              <a class="info" href="https://ashlenbruns.github.io/Trivia-Game" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+          <div class="thumbnail col-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="hovereffect">
+              <img class="img-fluid" src="assets/images/tree.png" alt="Tree Hugger Game">
+              <div class="overlay">
+                <h4>Tree Hugger Game</h4>
+                <p class="mx-auto">javascript | jQuery</p>  
+                <a class="info" href="https://ashlenbruns.github.io/unit-4-game" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+            <div class="thumbnail col-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="hovereffect">
+                <img class="img-fluid" src="assets/images/psychic.png" alt="Psychic Game">
+                <div class="overlay">
+                  <h4>Psychic Game</h4>
+                  <p class="mx-auto">javascript</p>
+                  <a class="info" href="https://ashlenbruns.github.io/Psychic-Game" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+              
+      </div>
+      </div>
+  
+      </div>  
+
     </div>
-    <br>
-    <div>
-        <p>Week 5 Trivia Game Homework</p>
-        <a href="https://ashlenbruns.github.io/Trivia-Game" target="_blank">Churchill Trivia</a>
+
+    <!-- Contact Me -->
+    <div class="contact-wrapper">
+    <div class="jumbotron jumbotron-fluid text-center" id="contact-jumbo">
+      <div class="container">
+        <h1 class="slide-in-right display-5">Contact Me</h1>
+        <hr>
+      </div>
     </div>
-    <br>
-    <div>
-        <p>Week 4 jQuery Homework</p>
-        <a href="https://ashlenbruns.github.io/unit-4-game" target="_blank">Tree Hugger Game</a>
+
+    <div class="text-center">
+      <a href="mailto:ashlen.bruns@gmail.com"><img class="email" src="assets/images/email-icon.png" alt="email"></a>
+      <a href="https://github.com/ashlenbruns"><img class="github" src="assets/images/GitHub.png" alt="github"></a>
+      <a href="https://www.linkedin.com/in/ashlen-bruns-1581b22b/"><img class="linkedin" src="assets/images/linkedin.png" alt="linkedin"></a>
     </div>
-    <br>
-    <div>
-        <p>Week 3 Javascript Homework</p>
-        <a href="https://ashlenbruns.github.io/Psychic-Game" target="_blank">Psychic Game</a>
+
     </div>
-    <div>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="java.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script type="text/javascript" src="assets/java.js"></script>
+
 </body>
 </html>
+
