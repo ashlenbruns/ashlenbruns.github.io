@@ -258,6 +258,10 @@ hr {
   padding: 10px 30px 30px 30px;
 }
 
+.resume {
+  padding: 10px 30px 30px 30px;
+}
+
 
 /* Extra Utilities */
 .overflow-hidden { overflow: hidden; }
